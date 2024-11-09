@@ -1,0 +1,14 @@
+p{
+    font-family:Roboto,Arial;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+body{
+    /*stile below will be inherited*/
+    margin: 0;
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-right: 20px;
+    background-color: rgb(243, 243, 243);
+    font-family: Roboto,Arial; 
+}

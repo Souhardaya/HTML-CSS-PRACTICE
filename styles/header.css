@@ -1,0 +1,148 @@
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom-width: 1px;
+    border-bottom-style:solid ;
+    border-bottom-color:rgb(246, 238, 238) ;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    z-index: 100;
+}
+.left-section{
+    
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.middle-section{
+   
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+}
+.right-section{
+   
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+.menu{
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 20px;
+}
+.utubelogo{
+    height: 20px;
+}
+.searchbutt{
+    height: 40px;
+    width: 66px;
+    background-color: rgb(240, 240, 240);
+    border-width: 1px;
+    border-style: 1px;
+    border-style: solid;
+    border-color: gray;
+    margin-left: -1;
+    margin-right: 10px;
+   
+}
+.searchbutt .tooltip,.voicesearch .tooltip, .uploadcont .tooltip, .appscont .tooltip,.notcot .tooltip{
+    font-family: Roboto,Arial;
+    position: absolute;
+    background-color: grey;
+    color: white;
+    padding: 8px 4px 8px 4px;
+    border-radius: 2px;
+    bottom: -30px;
+    opacity: 0;
+    transition: 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+
+}
+.searchbutt:hover .tooltip,.voicesearch:hover .tooltip, .uploadcont:hover .tooltip, .appscont:hover .tooltip, .notcot:hover .tooltip{
+    opacity: 1;
+}
+.searchbutt,.voicesearch,.uploadcont, .appscont,.notcot{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.voicesearch{
+    height: 40px;
+    width: 40px;
+   border-radius: 20px;
+   border: none;
+   background-color: rgb(245, 245, 245);
+   position: relative;
+}
+
+.search-bar{
+    flex: 1;
+    height: 37px;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 16px;
+    padding-left: 10px;
+    border-color: gray;
+    width: 0;
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 5px rgb(0, 0,0, 0.05);
+}
+.search-bar::placeholder{
+    font-family: Roboto,Arial;
+    font-size: 16px;
+}
+.searchicon{
+height: 25px;
+
+
+}
+.searchiconvoice{
+height: 24px;
+
+}
+.uploadicon{
+    height: 24px;
+}
+.appicon{
+    height: 24px;
+}
+.notficationicon{
+    height: 24px;
+}
+.notidiv{
+position: relative;
+}
+.noticount{
+    position: absolute;
+    top: -2px;
+    right: -5px;
+    background-color: rgb(202, 7, 7);
+    color: white;
+    font-family: Roboto,Arial;
+    font-size: 11px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 2px;
+    border-radius: 10px;
+    
+}
+.profimg{
+    height: 32px;
+    border-radius: 16px;
+}
+
